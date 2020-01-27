@@ -165,3 +165,4 @@ Workers work in a loop, whose frequency is controlled by the `frequency` field i
 # Config watcher
 
 A filesystem watch is placed on the specified config file, and if the file is changed, the config will be re-parsed and all of the workers will be killed and recreated based on the new config
+
